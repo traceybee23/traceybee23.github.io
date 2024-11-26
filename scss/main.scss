@@ -1,0 +1,8 @@
+// scss/main.scss
+@use 'variables'; // Import custom variables
+@use '../node_modules/bootstrap/scss/bootstrap'; // Import Bootstrap styles
+@use 'base';      // Import base styles
+@use 'layout';    // Import layout styles
+@use 'components';// Import component styles
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100..700;1,100..700&display=swap');

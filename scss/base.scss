@@ -1,0 +1,42 @@
+@import 'variables';
+
+body {
+    font-family: $font-base;
+    background-color: $color-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+h1, h2, h3 {
+    font-family: $font-heading;
+}
+
+
+header {
+    background-color: $color-secondary;
+    color: $color-primary;
+    text-shadow: 1px 1px black;
+}
+
+
+footer {
+    background-color: $color-secondary;
+    color: $color-primary;
+    text-shadow: 1px 1px black;
+}
+
+main {
+
+    color: $color-secondary;
+
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px $color-primary;
+}
+
+h3 {
+    color: $color-primary;
+}
