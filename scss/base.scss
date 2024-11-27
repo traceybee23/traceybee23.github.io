@@ -28,15 +28,29 @@ footer {
 
 main {
 
-    color: $color-secondary;
+    color: $font-color;
 
 }
 
 h2 {
     text-align: center;
-    text-shadow: 1px 1px $color-primary;
+    text-shadow: 1px 1px black;
+    color: $color-secondary;
 }
 
 h3 {
     color: $color-primary;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-secondary;
+}
+
+.text-secondary {
+    color: $color-accents !important;
 }

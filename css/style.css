@@ -11847,7 +11847,7 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: #000000;
+  background-color: #FDF0D5;
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -11858,28 +11858,42 @@ h1, h2, h3 {
 }
 
 header {
-  background-color: #69995d;
+  background-color: hsl(108, 24%, 48%);
   color: #efaac4;
   text-shadow: 1px 1px black;
 }
 
 footer {
-  background-color: #69995d;
+  background-color: hsl(108, 24%, 48%);
   color: #efaac4;
   text-shadow: 1px 1px black;
 }
 
 main {
-  color: #69995d;
+  color: #453F3C;
 }
 
 h2 {
   text-align: center;
-  text-shadow: 1px 1px #efaac4;
+  text-shadow: 1px 1px black;
+  color: hsl(108, 24%, 48%);
 }
 
 h3 {
   color: #efaac4;
+}
+
+a {
+  color: #efaac4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(108, 24%, 48%);
+}
+
+.text-secondary {
+  color: #56667A !important;
 }
 
 /*# sourceMappingURL=style.css.map */
