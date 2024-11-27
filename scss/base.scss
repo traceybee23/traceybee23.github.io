@@ -36,6 +36,7 @@ h2 {
     text-align: center;
     text-shadow: 1px 1px black;
     color: $color-secondary;
+    font-size: $font-size-heading;
 }
 
 h3 {
@@ -48,9 +49,28 @@ a {
 }
 
 a:hover {
-    color: $color-secondary;
+    color: $color-accents;
 }
 
 .text-secondary {
     color: $color-accents !important;
+}
+
+
+.btn {
+    border: $color-accents 1px solid;
+}
+
+.btn:hover {
+    background-color: $color-accents;
+    color: $color-primary;
+    border: white 1px solid;
+}
+
+nav {
+    background-color: $color-primary;
+}
+
+div {
+    margin: 10px 0;
 }

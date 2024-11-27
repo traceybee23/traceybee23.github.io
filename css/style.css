@@ -11858,13 +11858,13 @@ h1, h2, h3 {
 }
 
 header {
-  background-color: hsl(108, 24%, 48%);
+  background-color: #86a96f;
   color: #efaac4;
   text-shadow: 1px 1px black;
 }
 
 footer {
-  background-color: hsl(108, 24%, 48%);
+  background-color: #86a96f;
   color: #efaac4;
   text-shadow: 1px 1px black;
 }
@@ -11876,7 +11876,8 @@ main {
 h2 {
   text-align: center;
   text-shadow: 1px 1px black;
-  color: hsl(108, 24%, 48%);
+  color: #86a96f;
+  font-size: 50px;
 }
 
 h3 {
@@ -11889,11 +11890,29 @@ a {
 }
 
 a:hover {
-  color: hsl(108, 24%, 48%);
+  color: #56667A;
 }
 
 .text-secondary {
   color: #56667A !important;
+}
+
+.btn {
+  border: #56667A 1px solid;
+}
+
+.btn:hover {
+  background-color: #56667A;
+  color: #efaac4;
+  border: white 1px solid;
+}
+
+nav {
+  background-color: #efaac4;
+}
+
+div {
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
