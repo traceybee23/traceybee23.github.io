@@ -11853,7 +11853,9 @@ body {
   align-items: space-between;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Abril Fatface", serif;
 }
 
@@ -11913,6 +11915,36 @@ nav {
 
 div {
   margin: 10px 0;
+}
+
+#typed-text {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+.border-left {
+  border-left: 1px solid #453F3C !important;
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+}
+
+.text-primary {
+  color: #86a96f !important;
+}
+
+.text-secondary {
+  font-size: 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  font-family: "Abril Fatface", serif;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,7 +32,7 @@
                 <a href="#testimonial" class="nav-item nav-link">Review</a>
                 <a href="#blog" class="nav-item nav-link">Fun</a>
             </div>
-            <a href="https://www.linkedin.com/in/tracey-beard/" class="btn d-none d-lg-block">
+            <a href="https://www.linkedin.com/in/tracey-beard/" target="_blank" class="btn d-none d-lg-block">
                 Linked<i class="fa-brands fa-linkedin"></i>
             </a>
         </div>
@@ -46,10 +46,10 @@
                     <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.png" alt="Profile Picture">
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">Hi, I'm</h3>
-                    <h1 class="display-3 mb-2">Tracey Beard</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Software Engineer, Bug Hunter, Web Developer</div>
+                    <h4 class="text-white font-weight-normal mb-3">Hi, I'm</h4>
+                    <h1 class="display-3 mb-3">Tracey Beard</h1>
+                    <h4 class="typed-text-output d-inline font-weight-lighter text-white"></h4>
+                    <div id="typed-text" class="typed-text d-none">Software Engineer, Bug Hunter, Web Developer</div>
                     <div class="justify-content-lg-start pt-5">
                         <a href="TraceyBeard_Resume.pdf" target="_blank" class="btn btn-outline-light mr-5">My Resume</a>
                         <a href="https://www.linkedin.com/in/tracey-beard/" target="_blank" class="btn btn-outline-light">
@@ -64,9 +64,11 @@
     <!-- Main Content -->
     <main class="container my-5">
         <!-- About Section -->
-        <section id="about" class="container">
-            <h2>About Me</h2>
+        <section id="about" class="container-fluid py-5">
             <div class="row align-items-center">
+                <div>
+                    <h2>About Me</h2>
+                </div>
                 <div class="col-lg-5">
                     <img src="#" alt="About Me Image" class="img-fluid">
                 </div>
@@ -98,17 +100,77 @@
 
         <!-- Qualification Section -->
         <section id="qualification" class="container-fluid py-5">
-            <h2>Education & Experience</h2>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3>My Education</h3>
-                    <!-- Education Items -->
-                </div>
-                <div class="col-lg-6">
-                    <h3>My Experience</h3>
-                    <!-- Experience Items -->
+            <div class="container">
+                <h2>Qualifications</h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h3 class="mb-4">My Education</h3>
+                        <div class="border-left border-primary pt-2 pl-4 ml-2">
+                            <div class="position-relative mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute"
+                                    style="top: 2px; left: -32px;"></i>
+                                <h5 class="font-weight-bold mb-1">Software Engineering BS</h5>
+                                <p class="mb-2"><strong>Western Governors University</strong> | <small>2024 - 2026</small></p>
+                                <p>Pursuing a comprehensive degree focusing on Java and advanced software development concepts.
+                                </p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute"
+                                    style="top: 2px; left: -32px;"></i>
+                                <h5 class="font-weight-bold mb-1">Cybersecurity AAS</h5>
+                                <p class="mb-2"><strong>Lonestar College</strong> | <small>2018 - 2021</small></p>
+                                <p>I gained hands on skills in basic network design, network management, network automation,
+                                    network security and device management. Cum Laude graduate. </p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute"
+                                    style="top: 2px; left: -32px;"></i>
+                                <h5 class="font-weight-bold mb-1">App Academy Alum</h5>
+                                <p class="mb-2"><strong>App Academy</strong> | <small>2023 - 2024</small></p>
+                                <p>Rigorous full-stack web development boot camp that covered a range of technologies, such
+                                    as JavaScript, Python, SQL, ReactJS, Express, Flask, SQLAlchemy, Git, HTML, and CSS.
+                                    Explored key concepts including algorithms, data structures, and programming best
+                                    practices. Engaged in dynamic pair programming exercises. Contributed to both solo and
+                                    group projects, providing hands-on experience and solidified skills in software
+                                    development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-4">My Experience</h3>
+                        <div class="border-left border-primary pt-2 pl-4 ml-2">
+                            <div class="position-relative mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute"
+                                    style="top: 2px; left: -32px;"></i>
+                                <h5 class="font-weight-bold mb-1">Project Coordinator</h5>
+                                <p class="mb-2"><strong>GLS</strong> | <small>2022 - current</small></p>
+                                <p>I manage project coordination activities such as email correspondence, team meeting
+                                    attendance, and scheduling, ensuring seamless interdepartmental communication and timely
+                                    completion of repair projects. I troubleshoot a diverse array of telecom issues,
+                                    including VoIP and PA system malfunctions, effectively resolving technical challenges to
+                                    minimize downtime and maintain operational efficiency. Utilizing networking monitoring
+                                    tools, I assess and ensure the stability of internet connections at project sites,
+                                    proactively identifying and addressing network issues to optimize performance and
+                                    enhance overall project outcomes.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute"
+                                    style="top: 2px; left: -32px;"></i>
+                                <h5 class="font-weight-bold mb-1">Customer Service Rep</h5>
+                                <p class="mb-2"><strong>OneSupport</strong> | <small>2019 - 2022</small></p>
+                                <p>As a customer service representative, I served as the primary point of contact for both
+                                    internal and external customers in a dynamic, high-volume environment. I resolved
+                                    complex billing issues by providing bill adjustments and catering to clients' specific
+                                    needs and preferences, while also highlighting the benefits of contract-based billing
+                                    plans to lower monthly expenses. Additionally, I played a pivotal role in training and
+                                    creating instructional materials for new team members, contributing to the department's
+                                    overall efficiency and success.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
         </section>
     </main>
 

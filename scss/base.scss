@@ -8,9 +8,12 @@ body {
     align-items: space-between;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: $font-heading;
 }
+
 
 
 header {
@@ -27,9 +30,7 @@ footer {
 }
 
 main {
-
     color: $font-color;
-
 }
 
 h2 {
@@ -73,4 +74,36 @@ nav {
 
 div {
     margin: 10px 0;
+}
+
+
+#typed-text {
+    font-family: $font-base !important;
+}
+
+
+.border-left {
+    border-left: 1px solid $font-color !important;
+}
+
+.pl-4,
+.px-4 {
+    padding-left: 1.5rem !important;
+}
+
+.text-primary {
+    color: $color-secondary !important;
+}
+
+.text-secondary {
+    font-size: 15px;
+}
+
+p {
+    font-size: $font-size-base;
+}
+
+strong {
+    font-family: $font-heading;
+    font-weight: 300;
 }
