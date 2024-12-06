@@ -11845,6 +11845,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #56667A;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  background-color: theme-color("primary");
+}
+
+.progress-bar-striped {
+  background-size: 1rem 1rem;
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
   background-color: #FDF0D5;
@@ -11945,6 +11976,47 @@ p {
 h5 {
   font-family: "Abril Fatface", serif;
   color: #56667A;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #56667A;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  background-color: theme-color("primary");
+}
+
+.progress-bar-striped {
+  background-size: 1rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

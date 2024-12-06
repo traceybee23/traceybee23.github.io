@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'progress';
+
 
 body {
     font-family: $font-base;
@@ -106,4 +108,14 @@ p {
 h5 {
     font-family: $font-heading;
     color: $color-accents;
+}
+
+.progress {
+    border-radius: 10px;
+}
+
+.progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
 }

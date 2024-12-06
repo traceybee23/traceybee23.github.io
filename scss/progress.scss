@@ -1,0 +1,37 @@
+// Disable animation if transitions are disabled
+@import'variables';
+
+
+@if $enable-transitions {
+    @keyframes progress-bar-stripes {
+      from { background-position: $progress-height 0; }
+      to { background-position: 0 0; }
+    }
+  }
+
+  .progress {
+    display: flex;
+    height: $progress-height;
+    overflow: hidden; // force rounded corners by cropping it
+    line-height: 0;
+
+    background-color: $progress-bg;
+
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: $progress-bar-color;
+    text-align: center;
+    white-space: nowrap;
+    background-color: $progress-bar-bg;
+
+  }
+
+  .progress-bar-striped {
+
+    background-size: $progress-height $progress-height;
+  }
