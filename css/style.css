@@ -12024,3 +12024,12 @@ h5 {
 .pinkimage {
   width: 70%;
 }
+
+i:hover {
+  color: #56667A;
+}
+
+.i-portfolio {
+  font-size: 60px;
+  color: #FDF0D5
+}
