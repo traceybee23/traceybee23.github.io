@@ -11899,8 +11899,14 @@ header {
 footer {
   background-color: #86a96f;
   color: #efaac4;
+  color: #453F3C;
+}
+
+footer p {
+  color: #efaac4;
   text-shadow: 1px 1px black;
 }
+
 
 main {
   color: #453F3C;
